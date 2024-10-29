@@ -1,0 +1,31 @@
+{
+  "name": "custom-twilio-plugin",
+  "version": "1.3.3",
+  "private": true,
+  "scripts": {
+    "postinstall": "flex-plugin pre-script-check",
+    "start": "flex-plugin start",
+    "build": "flex-plugin build",
+    "deploy": "flex-plugin deploy",
+    "test": "flex-plugin test --env=jsdom",
+    "coverage": "flex-plugin test --coverage --env=jsdom"
+  },
+  "dependencies": {
+    "@twilio-paste/core": "^15.3.1",
+    "@twilio-paste/icons": "^9.2.0",
+    "@twilio/flex-plugin-scripts": "7.0.6",
+    "axios": "^1.7.7",
+    "prop-types": "^15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@twilio/flex-ui": "2.9.0",
+    "react-test-renderer": "17.0.2",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "typescript": "^4.9.5",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0"
+  }
+}
